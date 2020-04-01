@@ -1,4 +1,4 @@
-FROM node:alpine as builder
+FROM node:alpine as builder # Giving it the nam 'builder' for clarity
 
 WORKDIR '/app'
 COPY package.json .
